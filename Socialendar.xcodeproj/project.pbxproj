@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4FE87B2C9731FE00FAA161 /* SocialendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE87A2C9731FE00FAA161 /* SocialendarApp.swift */; };
+		EE4FE87D2C9731FE00FAA161 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE87C2C9731FE00FAA161 /* ContentView.swift */; };
+		EE4FE87F2C97320000FAA161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4FE87E2C97320000FAA161 /* Assets.xcassets */; };
+		EE4FE8822C97320000FAA161 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4FE8812C97320000FAA161 /* Preview Assets.xcassets */; };
+		EE4FE8842C97320000FAA161 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE8832C97320000FAA161 /* Persistence.swift */; };
+		EE4FE8872C97320000FAA161 /* Socialendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE8852C97320000FAA161 /* Socialendar.xcdatamodeld */; };
+		EE4FE8912C97320100FAA161 /* SocialendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE8902C97320100FAA161 /* SocialendarTests.swift */; };
+		EE4FE89B2C97320100FAA161 /* SocialendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE89A2C97320100FAA161 /* SocialendarUITests.swift */; };
+		EE4FE89D2C97320100FAA161 /* SocialendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE89C2C97320100FAA161 /* SocialendarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4FE88D2C97320000FAA161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4FE86F2C9731FE00FAA161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4FE8762C9731FE00FAA161;
+			remoteInfo = Socialendar;
+		};
+		EE4FE8972C97320100FAA161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4FE86F2C9731FE00FAA161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4FE8762C9731FE00FAA161;
+			remoteInfo = Socialendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4FE8772C9731FE00FAA161 /* Socialendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FE87A2C9731FE00FAA161 /* SocialendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialendarApp.swift; sourceTree = "<group>"; };
+		EE4FE87C2C9731FE00FAA161 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE4FE87E2C97320000FAA161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4FE8812C97320000FAA161 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE4FE8832C97320000FAA161 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EE4FE8862C97320000FAA161 /* Socialendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Socialendar.xcdatamodel; sourceTree = "<group>"; };
+		EE4FE88C2C97320000FAA161 /* SocialendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FE8902C97320100FAA161 /* SocialendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialendarTests.swift; sourceTree = "<group>"; };
+		EE4FE8962C97320100FAA161 /* SocialendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FE89A2C97320100FAA161 /* SocialendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialendarUITests.swift; sourceTree = "<group>"; };
+		EE4FE89C2C97320100FAA161 /* SocialendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4FE8742C9731FE00FAA161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE8892C97320000FAA161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE8932C97320100FAA161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4FE86E2C9731FE00FAA161 = {
+			isa = PBXGroup;
+			children = (
+				EE4FE8792C9731FE00FAA161 /* Socialendar */,
+				EE4FE88F2C97320100FAA161 /* SocialendarTests */,
+				EE4FE8992C97320100FAA161 /* SocialendarUITests */,
+				EE4FE8782C9731FE00FAA161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4FE8782C9731FE00FAA161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FE8772C9731FE00FAA161 /* Socialendar.app */,
+				EE4FE88C2C97320000FAA161 /* SocialendarTests.xctest */,
+				EE4FE8962C97320100FAA161 /* SocialendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4FE8792C9731FE00FAA161 /* Socialendar */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FE87A2C9731FE00FAA161 /* SocialendarApp.swift */,
+				EE4FE87C2C9731FE00FAA161 /* ContentView.swift */,
+				EE4FE87E2C97320000FAA161 /* Assets.xcassets */,
+				EE4FE8832C97320000FAA161 /* Persistence.swift */,
+				EE4FE8852C97320000FAA161 /* Socialendar.xcdatamodeld */,
+				EE4FE8802C97320000FAA161 /* Preview Content */,
+			);
+			path = Socialendar;
+			sourceTree = "<group>";
+		};
+		EE4FE8802C97320000FAA161 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FE8812C97320000FAA161 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE4FE88F2C97320100FAA161 /* SocialendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FE8902C97320100FAA161 /* SocialendarTests.swift */,
+			);
+			path = SocialendarTests;
+			sourceTree = "<group>";
+		};
+		EE4FE8992C97320100FAA161 /* SocialendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FE89A2C97320100FAA161 /* SocialendarUITests.swift */,
+				EE4FE89C2C97320100FAA161 /* SocialendarUITestsLaunchTests.swift */,
+			);
+			path = SocialendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4FE8762C9731FE00FAA161 /* Socialendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4FE8A02C97320100FAA161 /* Build configuration list for PBXNativeTarget "Socialendar" */;
+			buildPhases = (
+				EE4FE8732C9731FE00FAA161 /* Sources */,
+				EE4FE8742C9731FE00FAA161 /* Frameworks */,
+				EE4FE8752C9731FE00FAA161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socialendar;
+			productName = Socialendar;
+			productReference = EE4FE8772C9731FE00FAA161 /* Socialendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4FE88B2C97320000FAA161 /* SocialendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4FE8A32C97320100FAA161 /* Build configuration list for PBXNativeTarget "SocialendarTests" */;
+			buildPhases = (
+				EE4FE8882C97320000FAA161 /* Sources */,
+				EE4FE8892C97320000FAA161 /* Frameworks */,
+				EE4FE88A2C97320000FAA161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4FE88E2C97320000FAA161 /* PBXTargetDependency */,
+			);
+			name = SocialendarTests;
+			productName = SocialendarTests;
+			productReference = EE4FE88C2C97320000FAA161 /* SocialendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4FE8952C97320100FAA161 /* SocialendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4FE8A62C97320100FAA161 /* Build configuration list for PBXNativeTarget "SocialendarUITests" */;
+			buildPhases = (
+				EE4FE8922C97320100FAA161 /* Sources */,
+				EE4FE8932C97320100FAA161 /* Frameworks */,
+				EE4FE8942C97320100FAA161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4FE8982C97320100FAA161 /* PBXTargetDependency */,
+			);
+			name = SocialendarUITests;
+			productName = SocialendarUITests;
+			productReference = EE4FE8962C97320100FAA161 /* SocialendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4FE86F2C9731FE00FAA161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE4FE8762C9731FE00FAA161 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EE4FE88B2C97320000FAA161 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE4FE8762C9731FE00FAA161;
+					};
+					EE4FE8952C97320100FAA161 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE4FE8762C9731FE00FAA161;
+					};
+				};
+			};
+			buildConfigurationList = EE4FE8722C9731FE00FAA161 /* Build configuration list for PBXProject "Socialendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4FE86E2C9731FE00FAA161;
+			productRefGroup = EE4FE8782C9731FE00FAA161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4FE8762C9731FE00FAA161 /* Socialendar */,
+				EE4FE88B2C97320000FAA161 /* SocialendarTests */,
+				EE4FE8952C97320100FAA161 /* SocialendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4FE8752C9731FE00FAA161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FE8822C97320000FAA161 /* Preview Assets.xcassets in Resources */,
+				EE4FE87F2C97320000FAA161 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE88A2C97320000FAA161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE8942C97320100FAA161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4FE8732C9731FE00FAA161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FE8842C97320000FAA161 /* Persistence.swift in Sources */,
+				EE4FE8872C97320000FAA161 /* Socialendar.xcdatamodeld in Sources */,
+				EE4FE87D2C9731FE00FAA161 /* ContentView.swift in Sources */,
+				EE4FE87B2C9731FE00FAA161 /* SocialendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE8882C97320000FAA161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FE8912C97320100FAA161 /* SocialendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FE8922C97320100FAA161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FE89D2C97320100FAA161 /* SocialendarUITestsLaunchTests.swift in Sources */,
+				EE4FE89B2C97320100FAA161 /* SocialendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4FE88E2C97320000FAA161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4FE8762C9731FE00FAA161 /* Socialendar */;
+			targetProxy = EE4FE88D2C97320000FAA161 /* PBXContainerItemProxy */;
+		};
+		EE4FE8982C97320100FAA161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4FE8762C9731FE00FAA161 /* Socialendar */;
+			targetProxy = EE4FE8972C97320100FAA161 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE4FE89E2C97320100FAA161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE4FE89F2C97320100FAA161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4FE8A12C97320100FAA161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Socialendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.Socialendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4FE8A22C97320100FAA161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Socialendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.Socialendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE4FE8A42C97320100FAA161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.SocialendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socialendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Socialendar";
+			};
+			name = Debug;
+		};
+		EE4FE8A52C97320100FAA161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.SocialendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socialendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Socialendar";
+			};
+			name = Release;
+		};
+		EE4FE8A72C97320100FAA161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.SocialendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Socialendar;
+			};
+			name = Debug;
+		};
+		EE4FE8A82C97320100FAA161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.SocialendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Socialendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4FE8722C9731FE00FAA161 /* Build configuration list for PBXProject "Socialendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FE89E2C97320100FAA161 /* Debug */,
+				EE4FE89F2C97320100FAA161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4FE8A02C97320100FAA161 /* Build configuration list for PBXNativeTarget "Socialendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FE8A12C97320100FAA161 /* Debug */,
+				EE4FE8A22C97320100FAA161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4FE8A32C97320100FAA161 /* Build configuration list for PBXNativeTarget "SocialendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FE8A42C97320100FAA161 /* Debug */,
+				EE4FE8A52C97320100FAA161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4FE8A62C97320100FAA161 /* Build configuration list for PBXNativeTarget "SocialendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FE8A72C97320100FAA161 /* Debug */,
+				EE4FE8A82C97320100FAA161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE4FE8852C97320000FAA161 /* Socialendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE4FE8862C97320000FAA161 /* Socialendar.xcdatamodel */,
+			);
+			currentVersion = EE4FE8862C97320000FAA161 /* Socialendar.xcdatamodel */;
+			path = Socialendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE4FE86F2C9731FE00FAA161 /* Project object */;
+}
