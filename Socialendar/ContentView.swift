@@ -9,6 +9,28 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    var body: some View {
+        TabView {/*
+            EventListView()
+                .tabItem {
+                    Label("Events", systemImage: "calendar")
+                }
+
+            FriendsListView()
+                .tabItem {
+                    Label("Friends", systemImage: "person.2")
+                }
+*/
+            CalendarView()
+                .tabItem {
+                    Label("Calendar", systemImage: "calendar.circle")
+                }
+        }
+    }
+}
+
+/*
+struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -21,7 +43,7 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        Text("HELLO at \(item.timestamp!, formatter: itemFormatter)")
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
                     }
@@ -73,6 +95,7 @@ struct ContentView: View {
         }
     }
 }
+*/
 
 private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()

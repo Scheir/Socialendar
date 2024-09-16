@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SocialendarPhone.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EE4FE8762C9731FE00FAA161</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE4FE88B2C97320000FAA161</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE4FE8952C97320100FAA161</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
