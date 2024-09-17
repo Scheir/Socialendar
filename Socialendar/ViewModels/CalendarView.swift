@@ -17,11 +17,11 @@ struct CalendarView: View {
             Text(getMonthYear(from: selectedDate))
                 .font(.headline)
                 .padding()
-            
+
             // Calendar grid
             CalendarGrid(selectedDate: $selectedDate, events: events)
                 .padding()
-            
+
             // Event List
             EventList(selectedDate: selectedDate, events: events)
                 .padding()
@@ -47,7 +47,7 @@ struct CalendarView: View {
 struct CalendarGrid: View {
     @Binding var selectedDate: Date
     var events: [Event]
-    
+
     var body: some View {
         // Example grid layout
         // This should be replaced with actual calendar logic
@@ -72,12 +72,12 @@ struct CalendarGrid: View {
             }
         }
     }
-    
+
     private func isEventDay(_ day: Int) -> Bool {
         // Determine if there is an event on this day
         return false // Replace with actual logic
     }
-    
+
     private func dateForDay(_ day: Int) -> Date {
         // Convert day to date
         return Date() // Replace with actual logic
@@ -87,7 +87,7 @@ struct CalendarGrid: View {
 struct EventList: View {
     var selectedDate: Date
     var events: [Event]
-    
+
     var body: some View {
         List {
             ForEach(eventsForDate(selectedDate), id: \.id) { event in
@@ -95,7 +95,7 @@ struct EventList: View {
             }
         }
     }
-    
+
     private func eventsForDate(_ date: Date) -> [Event] {
         // Filter events for the selected date
         return events.filter { event in

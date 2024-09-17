@@ -10,7 +10,7 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        TabView {/*
+        TabView {
             EventListView()
                 .tabItem {
                     Label("Events", systemImage: "calendar")
@@ -20,7 +20,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("Friends", systemImage: "person.2")
                 }
-*/
             CalendarView()
                 .tabItem {
                     Label("Calendar", systemImage: "calendar.circle")
